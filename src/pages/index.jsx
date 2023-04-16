@@ -1,3 +1,11 @@
+import About from '@/components/About';
+import Details from '@/components/Details';
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
+import Navbar from '@/components/Navbar';
+import Products from '@/components/Products';
+import Reviews from '@/components/Reviews';
+import Social from '@/components/Social';
 import Head from 'next/head';
 
 export default function Home() {
@@ -8,7 +16,14 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
       <main>
-        <h1>Cafeteria</h1>
+        <Navbar />
+        <Header />
+        <Details />
+        <Products />
+        <About />
+        <Social />
+        <Reviews />
+        <Footer />
       </main>
     </>
   );
