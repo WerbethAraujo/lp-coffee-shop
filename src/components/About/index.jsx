@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const About = () => {
   return (
-    <section className={styles.about}>
+    <section className={styles.about} id='about'>
       <Image src='/about.png' alt='Sobre nós' width={500} height={400} />
       <div className={styles.content}>
         <h2 className='title light-bg'>Conheça mais sobre o coffee time</h2>

@@ -5,7 +5,7 @@ import SocialLinks from '@/UI/SocialLinks';
 
 const Social = () => {
   return (
-    <section className={styles.social}>
+    <section className={styles.social} id='social'>
       <div className={styles.content}>
         <h2 className='title dark-bg'>Descubra seu café favorito</h2>
         <p>

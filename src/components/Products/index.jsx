@@ -5,7 +5,7 @@ import Product from './Product';
 
 const Products = () => {
   return (
-    <section className={styles.products}>
+    <section className={styles.products} id='products'>
       <Product
         product='1'
         title='Café Blend'

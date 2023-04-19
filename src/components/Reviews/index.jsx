@@ -50,7 +50,7 @@ const Reviews = () => {
   const { avatar, name, role, stars, comment } = reviews[currentReview];
 
   return (
-    <section className={styles.reviews}>
+    <section className={styles.reviews} id='reviews'>
       <Image src='/graos.png' alt='graos de café' width={425} height={250} />
       <h2 className='title light-bg'>O que falam da gente</h2>
       <div className={styles.review}>
