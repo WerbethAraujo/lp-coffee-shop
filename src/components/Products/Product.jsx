@@ -14,7 +14,7 @@ const Product = ({ product, title, roast, stars, reviews, price }) => {
       />
       <h2>{title}</h2>
       <h3>{roast}</h3>
-      <Stars stars='5' reviews={`(${reviews})`} />
+      <Stars stars='5' reviews={reviews} />
       <h4>{`R$ ${price}`}</h4>
     </div>
   );

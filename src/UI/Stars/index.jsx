@@ -10,7 +10,7 @@ const Stars = ({ stars, reviews }) => {
   return (
     <div className={styles.stars}>
       {renderStars}
-      {reviews && <span>{reviews}</span>}
+      {reviews && <span>({reviews})</span>}
     </div>
   );
 };
