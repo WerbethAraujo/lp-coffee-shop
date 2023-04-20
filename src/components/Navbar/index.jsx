@@ -3,8 +3,8 @@ import styles from './Navbar.module.scss';
 import Logo from '@/UI/Logo';
 
 const links = [
-  { url: '#products', text: 'Products' },
   { url: '#about', text: 'Sobre' },
+  { url: '#products', text: 'Products' },
   { url: '#social', text: 'Social' },
   { url: '#reviews', text: 'Depoimentos' },
 ];

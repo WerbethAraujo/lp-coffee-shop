@@ -4,12 +4,16 @@
 .footer {
   background: $primary;
   padding: 6rem;
-  padding-bottom: 2rem;
+
+  @include device(notebook) {
+    padding: 6rem 2rem;
+  }
 
   span {
     display: block;
     text-align: center;
     color: $mediumSecondary;
+    margin-top: 6rem;
   }
 
   .content {
@@ -19,9 +23,21 @@
     gap: 6rem;
     margin-bottom: 2rem;
 
+    @include device(notebook) {
+      flex-direction: column;
+      gap: 4rem;
+      align-items: center;
+      max-width: 60rem;
+      margin-bottom: 4rem;
+    }
+
     .main {
       max-width: 25rem;
       flex-grow: 1;
+
+      @include device(notebook) {
+        max-width: none;
+      }
 
       p {
         color: $mediumSecondary;
@@ -47,11 +63,19 @@
       iframe {
         width: 100%;
         height: 20rem;
+
+        @include device(notebook) {
+          height: 300px;
+        }
       }
     }
 
     .info {
       flex-grow: 1;
+
+      @include device(notebook) {
+        width: 100%;
+      }
 
       ul {
         li {

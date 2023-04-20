@@ -31,8 +31,12 @@ const Footer = () => {
           <ul>
             <li>Segunda - Sexta: 09:00 às 18:00</li>
             <li>Sábados: 09:00 às 14:00</li>
-            <li>(00) 000000-0000</li>
-            <li>contato@coffeetime.com.br</li>
+            <li>
+              <strong>Telefone:</strong> (00) 000000-0000
+            </li>
+            <li>
+              <strong>E-mail:</strong> contato@coffeetime.com.br
+            </li>
           </ul>
         </div>
       </div>
